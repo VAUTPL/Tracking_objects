@@ -13,6 +13,8 @@ Detection and tracking of objects using the Hough transform
 
 # Installation - Ubuntu
 
+Ejecutar el archivo "instalar_opencv.sh" o instalacion manual con los pasos a continuación.
+
 # KEEP UBUNTU OR DEBIAN UP TO DATE
 
 sudo apt-get -y update
