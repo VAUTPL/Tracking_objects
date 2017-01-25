@@ -18,7 +18,7 @@ Detection and tracking of objects using the Hough transform
 
 # Installation - Ubuntu
 
-Ejecutar el archivo "instalar_opencv.sh" o instalacion manual con los pasos a continuación.
+Run the "instalar_opencv.sh"  file or manual installation with the steps below.
 
 ### KEEP UBUNTU OR DEBIAN UP TO DATE
 
@@ -72,23 +72,23 @@ sudo ldconfig
 
 
 ## Compilar archivos:
-### Primera forma
+### Normal compilation
        g++ -o my_example my_example.cpp `pkg-config opencv --cflags --libs`
 
-### Segunda forma
-Agregar el alias en .bashrc o .bash_aliases 
+### Create an alias
+Add the alias in .bashrc o .bash_aliases 
 
         $ alias opencv="~/.compile_opencv.sh"
 
-opencv es un alinas para compilar archivos c o cpp, para ejecutar se usa el siguiente comando:
+Opencv is an alias to compile c or cpp files, to execute the following command is used:
 
         $ opencv <nombre del archivo.cpp> 
         
-ejemplo: 
+example: 
 
         $ opencv opencvtest.c
 
-para ejecutar se usa:
+To run is used:
 
         $ ./opencvtest
 
