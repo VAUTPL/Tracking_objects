@@ -72,5 +72,17 @@ sudo ldconfig
 
 
 ## Compilar archivos:
-opencv es un alinas para compilar archivos c o cpp
-	$ opencv <nombre del archivo.cpp>
+### Primera forma
+g++ -o my_example my_example.cpp `pkg-config opencv --cflags --libs`
+
+### Segunda forma
+Agregar el alias en .bashrc o .bash_aliases 
+$ alias opencv="~/.compile_opencv.sh"
+
+opencv es un alinas para compilar archivos c o cpp, para ejecutar se usa el siguiente comando:
+$ opencv <nombre del archivo.cpp> , ejemplo: $ opencv opencvtest.c
+
+para ejecutar se usa:
+$ ./opencvtest
+
+
